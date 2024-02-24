@@ -639,7 +639,7 @@ nextBtn.addEventListener('click', () => {
     if(currentQuestionIndex < currentQuiz.questions.length) {
         handleNextBtn();
     } else {
-        window.location = "/";
+        window.location = "/AppQuiz";
     }
 })
 
