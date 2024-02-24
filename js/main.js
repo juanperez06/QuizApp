@@ -613,7 +613,7 @@ console.log(scoreBoard);
 function showScore() {
     resetState();
     questionCountTracker.style.display = "none";
-    barTracker.style.display = "none";
+    // barTracker.style.display = "none";
     //quizMenu.style.cssText += 'grid-template-columns:unset; justify-content: center; align-items: center';
     scoreBoard.style.display = "flex";
     questionElement.innerHTML = `<div>Quiz completed</div><h1>You scored...</h1>`;
