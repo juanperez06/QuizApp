@@ -4,8 +4,8 @@
   --botton-color: #FFFFFF;
   --bg-color: #F4F6FA;
   --text-color: #313E51;
-  --bg-img: url(./assets/images/pattern-background-desktop-light.svg);
-  --bg-img-mobile: url(./assets/images/pattern-background-mobile-light.svg);
+  --bg-img: url(assets/images/pattern-background-desktop-light.svg);
+  --bg-img-mobile: url(assets/images/pattern-background-mobile-light.svg);
   --shadow: 2px 2px 6px rgba(0,0,0, 0.1);
   --accessibility-icon-bg: #F6E7FF;
   --html-icon-bg: #FFF1E9;
@@ -27,8 +27,8 @@
   --botton-color: #3B4D66;
   --bg-color: #3B4D66;
   --text-color: #FFFFFF;
-  --bg-img: url(./assets/images/pattern-background-desktop-dark.svg);
-  --bg-img-mobile: url(./assets/images/pattern-background-mobile-dark.svg);
+  --bg-img: url(assets/images/pattern-background-desktop-dark.svg);
+  --bg-img-mobile: url(assets/images/pattern-background-mobile-dark.svg);
   --shadow: 2px 2px 6px black;
   --score-board-bg: #40526c;
 }
