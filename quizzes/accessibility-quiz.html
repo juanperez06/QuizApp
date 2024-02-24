@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Accessibility - QUIZ</title>
+</head>
+<body onload="startQuiz(3)">
+    <header style="display: flex !important; justify-content: space-between;">
+        <div class="quiz-subject" style="display: flex; align-items: center; gap: 10px;">
+            <img src="/assets/images/icon-accessibility.svg" alt="" srcset="" class="accessibility-icon">
+            <h2>Accessibility</h2>
+        </div>
+        <div class="light-mode">
+          <img src="/assets/images/icon-sun-dark.svg" alt="" srcset="">
+          <label class="switch-btn">
+            <input type="checkbox" id="dark-mode-toggle">
+            <span class="slider"></span>
+          </label>
+          <img src="/assets/images/icon-moon-dark.svg" alt="" srcset="">
+        </div>
+      </header>
+    <div class="app-wrapper quiz-menu" id="quiz-menu">
+        <div class="questions-wrapper left-side">
+            <div class="content-wrapper">
+                <p id="question-count-tracker">Question <span id="current-question"></span> of <span id="total-question"></span></p>
+                <h3 id="question-container"></h3>
+            </div>
+            <div class="content-wrapper">
+                <span id="question-bar-tracker" class="question-bar-tracker"></span>
+            </div>
+        </div>
+        <div class="answers-wrapper right-side">
+            <ul class="answers-list" id="answers-list">
+            </ul>
+            <div class="score-board" id="score-board" style="display: none; flex-direction: column; align-items: center; gap: 10px; background-color: white; border-radius: 10px; padding: 20px;">
+                <div class="" style="display: flex; align-items: center; gap: 10px;">
+                    <img src="/assets/images/icon-accessibility.svg" alt="" srcset="">
+                    <h4>Accessibility</h4>
+                </div>
+            </div>
+            <!-- <button class="submit-btn next-btn" id="next-btn" >Submit Answer</button> -->
+            <button class="next-btn" id="next-btn" style="display: none;">Next Question</button>
+        </div>
+      </div>
+      <script src="/js/main.js"></script>
+</body>
+</html>
