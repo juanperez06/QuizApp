@@ -434,25 +434,25 @@ let pages = {
       </div>
       <div class="subject-picker right-side">
         <div class="subject" id="html">
-          <a href="/quizzes/html-quiz.html">
+          <a href="./quizzes/html-quiz.html">
             <img src="./assets/images/icon-html.svg" alt="" srcset="" class="html-icon">
             <p class="subject--name">HTML</p>
           </a>
         </div>
         <div class="subject" id="css">
-          <a href="/quizzes/css-quiz.html" class="css-link">
+          <a href="./quizzes/css-quiz.html" class="css-link">
             <img src="./assets/images/icon-css.svg" alt="" srcset="" class="css-icon">
             <p class="subject--name">CSS</p>
           </a>
         </div>
         <div class="subject" id="javascript">
-          <a href="/quizzes/js-quiz.html" class="js-link">
+          <a href="./quizzes/js-quiz.html" class="js-link">
             <img src="./assets/images/icon-js.svg" alt="" srcset="" class="js-icon">
             <p class="subject--name">Javascript</p>
           </a>
         </div>
         <div class="subject" id="accessibility">
-          <a href="/quizzes/accessibility-quiz.html" class="accessibility-link">
+          <a href="./quizzes/accessibility-quiz.html" class="accessibility-link">
             <img src="./assets/images/icon-accessibility.svg" alt="" srcset="" class="accessibility-icon">
             <p class="subject--name">Accessibility</p>
           </a>
