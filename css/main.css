@@ -74,6 +74,8 @@ span.question-label {
 body {
     background-image: var(--bg-img);
     background-color: var(--bg-color);
+    background-repeat: no-repeat;
+    background-size: auto;
     color: var(--text-color);
     font-family: "Rubik", sans-serif;
 }
