@@ -334,12 +334,12 @@ let quizzes = [
             {
                 "question": "Which element is used to provide alternative text for images for screen reader users?",
                 "options": [
-                    "<alt>",
-                    "<figcaption>",
-                    "<description>",
-                    "<img alt='description'>"
+                    "&lt;alt&gt;",
+                    "&lt;figcaption&gt;",
+                    "&lt;description&gt;",
+                    "&lt;img alt='description'&gt;"
                 ],
-                "answer": "<img alt='description'>"
+                "answer": "&lt;img alt='description'&gt;"
             },
             {
                 "question": "What does ARIA stand for in web development?",
@@ -374,12 +374,12 @@ let quizzes = [
             {
                 "question": "Which of the following elements is inherently focusable, meaning it can receive focus without a 'tabindex' attribute?",
                 "options": [
-                    "<div>",
-                    "<span>",
-                    "<a href='...'>",
-                    "<p>"
+                    "&lt;div&gt;",
+                    "&lt;span&gt;",
+                    "&lt;a href='...'&gt;",
+                    "&lt;p&gt;"
                 ],
-                "answer": "<a href='...'>"
+                "answer": "&lt;a href='...'&gt;"
             },
             {
                 "question": "What is the purpose of the 'lang' attribute in an HTML page?",
