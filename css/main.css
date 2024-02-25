@@ -373,7 +373,7 @@ button.next-btn:hover {
 @media screen and (max-width: 426px) {
   body {
     background-image: var(--bg-img-mobile);
-    height: calc(100vh - 10%);
+    height: 100dvh;
   }
 
   .quiz-menu {
