@@ -329,7 +329,7 @@ button.next-btn:hover {
 }
 
 .correct::after {
-  content: url(/assets/images/icon-correct.svg);
+  content: url(../assets/images/icon-correct.svg);
   display: flex;
   width: 10px;
   height: 10px;
@@ -351,7 +351,7 @@ button.next-btn:hover {
 }
 
 .incorrect::after {
-  content: url(/assets/images/icon-incorrect.svg);
+  content: url(../assets/images/icon-incorrect.svg);
   display: flex;
   width: 10px;
   height: 10px;
